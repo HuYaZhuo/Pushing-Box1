@@ -159,7 +159,7 @@ let _flag=0,_flag1=0,_flag2=0
       _flag2=0
     }   
   // pushing the box
-      if(_flag==0&&_flag1==0){
+      if(_flag==0&&_flag1==0&&_flag2==0){
         for(let i=0;i<tbox.length;i++){
           if(tplayer[0].x-1==tbox[i].x&&tplayer[0].y==tbox[i].y){
             CreateElements(tbox[i].x-1,tbox[i].y, gelement.box.color,"box");
@@ -205,7 +205,7 @@ let _flag=0,_flag1=0,_flag2=0
       _flag2=0
     }   
   // pushing the box
-      if(_flag==0&&_flag1==0){
+      if(_flag==0&&_flag1==0&&_flag2==0){
         for(let i=0;i<tbox.length;i++){
           if(tplayer[0].y+1==tbox[i].y&&tplayer[0].x==tbox[i].x){
             CreateElements(tbox[i].x,tbox[i].y+1, gelement.box.color,"box");
@@ -251,7 +251,7 @@ let _flag=0,_flag1=0,_flag2=0
       _flag2=0
     }   
   // pushing the box
-      if(_flag==0&&_flag1==0){
+      if(_flag==0&&_flag1==0&&_flag2==0){
         for(let i=0;i<tbox.length;i++){
           if(tplayer[0].y-1==tbox[i].y&&tplayer[0].x==tbox[i].x){
             CreateElements(tbox[i].x,tbox[i].y-1, gelement.box.color,"box");
